@@ -29,7 +29,7 @@
 </div>
 <!--main1-->
 <div class="zg-main1">
-    <h2>距离2018考研仅剩<span>50</span>天</h2>
+    <h2>距离2018考研仅剩<span id="timer">50</span>天</h2>
     <p>现在还能赶超竞争对手吗?</p>
     <ul class="m1-cont">
         <li>越是考试临近，越焦虑，注意力无法集中</li>
@@ -40,6 +40,27 @@
         <li>平时复习的不错,一到考试就掉链子</li>
     </ul>
 </div>
+<script>
+    var oT=document.getElementById('timer');
+    var oDate=new Date();
+    oDate.setFullYear(2017,11,23);
+    oDate.setHours(0,0,0,0);
+    var future=oDate.getTime();
+    clock();
+    setInterval(clock,1000);
+    function clock(){
+        //获取当前时间戳
+        var oDate=new Date();
+        var now=oDate.getTime();
+        //获取差值,单位是毫秒
+        //alert(future-now);
+        //转化成秒
+        var s=parseInt((future-now)/1000);
+        //转化成天
+        var d=parseInt(s/86400);
+        oT.innerHTML=d;
+    }
+</script>
 <!--main2-->
 <div class="zg-main2">
     <h2>考前<span>50</span>天特训，高效提升<span>50</span>分</h2>
@@ -426,23 +447,23 @@
                 </li>
                 <li>
                     <img src="images/grq.png" alt="">
-                    <p>杨攀</p>
+                    <p>郭瑞卿</p>
                 </li>
                 <li>
                     <img src="images/gx.png" alt="">
-                    <p>杨攀</p>
+                    <p>葛鑫</p>
                 </li>
                 <li>
                     <img src="images/lxj.png" alt="">
-                    <p>杨攀</p>
+                    <p>鲁雪静</p>
                 </li>
                 <li>
                     <img src="images/mh.png" alt="">
-                    <p>杨攀</p>
+                    <p>马化</p>
                 </li>
                 <li>
                     <img src="images/xf.png" alt="">
-                    <p>杨攀</p>
+                    <p>邢飞</p>
                 </li>
             </ul>
         </div>
@@ -456,27 +477,27 @@
             <ul class="two-show-box-mov">
                 <li>
                     <img src="images/yfz.png" alt="">
-                    <p>杨攀</p>
+                    <p>杨凤芝</p>
                 </li>
                 <li>
                     <img src="images/gzl.png" alt="">
-                    <p>杨攀</p>
+                    <p>高子泠</p>
                 </li>
                 <li>
                     <img src="images/ml.png" alt="">
-                    <p>杨攀</p>
+                    <p>牟丽</p>
                 </li>
                 <li>
                     <img src="images/mym.png" alt="">
-                    <p>杨攀</p>
+                    <p>马瑗敏</p>
                 </li>
                 <li>
                     <img src="images/ysz.png" alt="">
-                    <p>杨攀</p>
+                    <p>袁舒增</p>
                 </li>
                 <li>
                     <img src="images/zjj.png" alt="">
-                    <p>杨攀</p>
+                    <p>张晶晶</p>
                 </li>
             </ul>
         </div>
@@ -490,27 +511,27 @@
             <ul class="two-show-box-mov">
                 <li>
                     <img src="images/ll.png" alt="">
-                    <p>杨攀</p>
+                    <p>李擂</p>
                 </li>
                 <li>
                     <img src="images/gyf.png" alt="">
-                    <p>杨攀</p>
+                    <p>宫艳芳</p>
                 </li>
                 <li>
                     <img src="images/sem.png" alt="">
-                    <p>杨攀</p>
+                    <p>尚恩茂</p>
                 </li>
                 <li>
                     <img src="images/sn.png" alt="">
-                    <p>杨攀</p>
+                    <p>石娜</p>
                 </li>
                 <li>
                     <img src="images/sxd.png" alt="">
-                    <p>杨攀</p>
+                    <p>束晓丹</p>
                 </li>
                 <li>
                     <img src="images/wjf.png" alt="">
-                    <p>杨攀</p>
+                    <p>吴金凤</p>
                 </li>
             </ul>
         </div>
@@ -524,27 +545,27 @@
             <ul class="two-show-box-mov">
                 <li>
                     <img src="images/myt.png" alt="">
-                    <p>杨攀</p>
+                    <p>马玉涛</p>
                 </li>
                 <li>
                     <img src="images/dsy.png" alt="">
-                    <p>杨攀</p>
+                    <p>刁思羽</p>
                 </li>
                 <li>
                     <img src="images/dyl.png" alt="">
-                    <p>杨攀</p>
+                    <p>代亚丽</p>
                 </li>
                 <li>
                     <img src="images/j.png" alt="">
-                    <p>杨攀</p>
+                    <p>王晶</p>
                 </li>
                 <li>
                     <img src="images/lh.png" alt="">
-                    <p>杨攀</p>
+                    <p>刘欢</p>
                 </li>
                 <li>
                     <img src="images/shy.png" alt="">
-                    <p>杨攀</p>
+                    <p>邵红艳</p>
                 </li>
             </ul>
         </div>
@@ -558,27 +579,27 @@
             <ul class="two-show-box-mov">
                 <li>
                     <img src="images/sq.png" alt="">
-                    <p>杨攀</p>
+                    <p>王升千</p>
                 </li>
                 <li>
                     <img src="images/hj.png" alt="">
-                    <p>杨攀</p>
+                    <p>韩洁</p>
                 </li>
                 <li>
                     <img src="images/li.png" alt="">
-                    <p>杨攀</p>
+                    <p>展丽</p>
                 </li>
                 <li>
                     <img src="images/ll2.png" alt="">
-                    <p>杨攀</p>
+                    <p>梁良</p>
                 </li>
                 <li>
                     <img src="images/wsm.png" alt="">
-                    <p>杨攀</p>
+                    <p>王诗茗</p>
                 </li>
                 <li>
                     <img src="images/yjl.png" alt="">
-                    <p>杨攀</p>
+                    <p>杨江龙</p>
                 </li>
             </ul>
         </div>
@@ -598,7 +619,7 @@
             <ul class="two-show-box-mov">
                 <li>
                     <img src="images/pxj.png" alt="">
-                    <p>杨攀</p>
+                    <p>彭学军</p>
                 </li>
                 <li>
                     <img src="images/yp.png" alt="">
@@ -606,19 +627,19 @@
                 </li>
                 <li>
                     <img src="images/yfz.png" alt="">
-                    <p>杨攀</p>
+                    <p>杨凤芝</p>
                 </li>
                 <li>
                     <img src="images/ll.png" alt="">
-                    <p>杨攀</p>
+                    <p>李擂</p>
                 </li>
                 <li>
                     <img src="images/myt.png" alt="">
-                    <p>杨攀</p>
+                    <p>马玉涛</p>
                 </li>
                 <li>
                     <img src="images/sq.png" alt="">
-                    <p>杨攀</p>
+                    <p>王升千</p>
                 </li>
             </ul>
         </div>

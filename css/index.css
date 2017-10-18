@@ -792,7 +792,7 @@ header p{
     z-index:3;
 }
 .to-left img{
-	0.8rem;
+	width: 0.85rem
 }
 .to-right{
     position: absolute;
