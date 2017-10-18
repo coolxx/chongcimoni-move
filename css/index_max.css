@@ -659,6 +659,7 @@ header p{
     float: right;
     box-sizing: border-box;
     width: 284px;
+    height: 64px;
     line-height:62px;
     font-size:24px;
     background: #fff;
