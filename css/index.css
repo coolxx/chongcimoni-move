@@ -682,7 +682,7 @@ header p{
     box-sizing: border-box;
     width: 7.1rem;
     height: 1.6rem;
-    line-height:1.55rem;
+    line-height:1.52rem;
     font-size:0.6rem;
     background: #fff;
     color: #4b000c;
@@ -1016,14 +1016,15 @@ header p{
     text-align: center;
     line-height: 1.7rem;
     font-size: 0.6rem;
-    color: #fff
+    color: #fff;
+    padding-left: 0.5rem;
 }
 .fix1{
     background: url(../images/fix1.png) no-repeat 15% center #000;
     background-size: 1.15rem 1.125rem
 }
 .fix2{
-    background: url(../images/fix2.png) no-repeat 15% center #e62929;
+    background: url(../images/fix2.png) no-repeat 25% center #e62929;
     background-size: 1.525rem 1.2rem
 }
 .zixun{
