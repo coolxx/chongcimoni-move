@@ -324,6 +324,7 @@ header p{
     height:2620px;
     overflow: hidden;
     background: url("../images/main3.jpg") no-repeat center;
+    margin-top: 20px;
 }
 .main-tt{
     font-size:36px;
@@ -586,6 +587,7 @@ header p{
     height:1366px;
     overflow: hidden;
     background: url("../images/main5.jpg") no-repeat center;
+    margin-top: 20px;
 }
 .main-tt4{
     width: 376px;
@@ -606,15 +608,15 @@ header p{
 }
 .m5-cont li p{
     font-size:24px;
-    line-height:40px;
-    margin-top:50px;
+    line-height:38px;
+    margin-top:60px;
 }
 .m5-cont li a{
     display: block;
     width: 317px;
     height: 60px;
     line-height:58px;
-    margin: 10px auto;
+    margin: 8px auto;
     font-size:24px;
     color: #333;
 }
@@ -966,10 +968,10 @@ header p{
     color: #fff
 }
 .fix1{
-    background: url(../images/fix1.png) no-repeat 10% center #000;
+    background: url(../images/fix1.png) no-repeat 15% center #000;
 }
 .fix2{
-    background: url(../images/fix2.png) no-repeat 10% center #e62929;
+    background: url(../images/fix2.png) no-repeat 15% center #e62929;
 }
 .zixun{
     position: fixed;

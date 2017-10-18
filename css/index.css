@@ -4,6 +4,7 @@ li{ list-style:none; }
 a{ text-decoration:none; }
 img{ vertical-align:top; }
 input{outline: none}
+input[type="button"], input[type="submit"], input[type="reset"] {-webkit-appearance: none;}
 header{
 	width: 18.0rem;
 	height: 1.25rem;
@@ -332,7 +333,8 @@ header p{
     height:65.5rem;
     overflow: hidden;
     background: url("../images/main3.jpg") no-repeat center;
-    background-size: 18.0rem 65.5rem
+    background-size: 18.0rem 65.5rem;
+    margin-top: 0.5rem
 }
 .main-tt{
     font-size:0.9rem;
@@ -605,6 +607,7 @@ header p{
     overflow: hidden;
     background: url("../images/main5.jpg") no-repeat center;
     background-size: 18.0rem 34.15rem;
+     margin-top: 0.5rem;
 }
 .main-tt4{
     width: 9.4rem;
@@ -1015,11 +1018,11 @@ header p{
     color: #fff
 }
 .fix1{
-    background: url(../images/fix1.png) no-repeat 10% center #000;
+    background: url(../images/fix1.png) no-repeat 15% center #000;
     background-size: 1.15rem 1.125rem
 }
 .fix2{
-    background: url(../images/fix2.png) no-repeat 10% center #e62929;
+    background: url(../images/fix2.png) no-repeat 15% center #e62929;
     background-size: 1.525rem 1.2rem
 }
 .zixun{
@@ -1032,5 +1035,5 @@ header p{
     display: block;
 }
 .zixun a img{
-    width: 1.65rem;
+    width: 1.85rem;
 }
