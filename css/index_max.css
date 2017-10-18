@@ -288,6 +288,38 @@ header p{
     border:none;
     border-radius: 8px;
 }
+.tankuang{
+    width: 525px;
+    height: 242px;
+    background: rgba(0,0,0,0.7);
+    border-radius: 20px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -262px;
+    margin-top: -121px;
+    overflow: hidden;
+    display: none;
+}
+.tankuang img{
+    float: right;
+    margin: 13px 19px 0 0;
+    width: 0.4rem 0.375rem;
+}
+.tankuang h1{
+    font-size: 38px;
+    color: #fff32c;
+    text-align: center;
+    line-height: 38px;
+    margin-top: 64px;
+}
+.tankuang p{
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 47px;
+    color: #cb3818
+}
 .zg-main3{
     height:2620px;
     overflow: hidden;

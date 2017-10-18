@@ -297,6 +297,37 @@ header p{
     border:none;
     border-radius: 0.2rem;
 }
+.tankuang{
+    width: 13.125rem;
+    height: 6.05rem;
+    background: rgba(0,0,0,0.7);
+    border-radius: 0.5rem;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -6.55rem;
+    margin-top: -3.025rem;
+    overflow: hidden;
+    display: none;
+}
+.tankuang img{
+    float: right;
+    margin: 0.325rem 0.475rem 0 0;
+}
+.tankuang h1{
+    font-size: 0.95rem;
+    color: #fff32c;
+    text-align: center;
+    line-height: 0.95rem;
+    margin-top: 1.6rem;
+}
+.tankuang p{
+    font-size: 0.6rem;
+    line-height: 0.6rem;
+    text-align: center;
+    margin-top: 1.175rem;
+    color: #cb3818
+}
 .zg-main3{
     height:65.5rem;
     overflow: hidden;
@@ -879,7 +910,9 @@ header p{
     left:0;
 }
 .m7-btn-box2 li:nth-child(1) .p3{
-    background: url("../images/m7-2-2.png") no-repeat 0.5rem center;
+    background-position: 0.5rem center;
+    background-repeat: no-repeat;
+    background-image: url("../images/m7-2-2.png");
     background-size: 0.75rem 0.7rem;
     color: #fff;
 }
@@ -890,11 +923,15 @@ header p{
     left:5.6rem;
 }
 .m7-btn-box2 li:nth-child(2) .p3{
-    background: url("../images/m7-3.png") no-repeat 0.5rem center;
+    background-position: 0.5rem center;
+    background-repeat: no-repeat;
+    background-image: url("../images/m7-3.png");
     background-size: 0.675rem 0.675rem
 }
 .m7-btn-box2 li:nth-child(3) .p3{
-    background: url("../images/m7-4.png") no-repeat 0.5rem center;
+    background-position: 0.5rem center;
+    background-repeat: no-repeat;
+    background-image: url("../images/m7-4.png");
     background-size: 0.525rem 0.675rem;
 }
 .m7-show-box-2{
