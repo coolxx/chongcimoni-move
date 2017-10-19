@@ -731,11 +731,11 @@ header p{
     background-size: 5.425rem 5.225rem;
 }
 .zg-main7{
-    height: 41.025rem;
     overflow: hidden;
     background: url("../images/main7.jpg") no-repeat center;
     background-size: 18.0rem 41.025rem;
     margin-top:0.5rem;
+    padding-bottom: 0.5rem
 }
 .main-tt6{
     width: 14.85rem;

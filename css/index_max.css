@@ -706,10 +706,10 @@ header p{
     background: url("../images/m6-2.png") no-repeat center top;
 }
 .zg-main7{
-    height: 1641px;
     overflow: hidden;
-    background: url("../images/main7.jpg") no-repeat center;
+    background: url("../images/main7.jpg") no-repeat center top;
     margin-top:20px;
+    padding-bottom: 20px;
 }
 .main-tt6{
     width: 594px;
